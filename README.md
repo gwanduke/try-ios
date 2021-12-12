@@ -24,3 +24,9 @@
 ## 정보
 
 - XCode13 부터는 info.plist 가 기본 제공되지 않는다. project 설정에서 값을 찾을 수 있다.
+
+## View Update Lifecycle
+
+![View Update Lifecycle](./images/readme/view-update-lifecycle.png)
+
+## Swift
