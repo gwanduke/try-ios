@@ -30,3 +30,15 @@
 ![View Update Lifecycle](./images/readme/view-update-lifecycle.png)
 
 ## Swift
+
+### Closure, Trailing Closure
+
+## MVVM
+
+![MVVM](./images/readme/mvvm.png)
+
+## Projects
+
+### War Challenge
+
+![war-challenge](./projects/war-challenge/result.png)
