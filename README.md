@@ -33,6 +33,38 @@
 
 ### Closure, Trailing Closure
 
+### 익명함수
+
+> 스위프트에서는 `클로저`랑 같은 의미라는데 js는 아니라서 정말 동일한 의미인지 확인해봐야할듯
+
+아래 세가지는 동일한 의미를 갖는다.
+
+```swift
+func myFunc(isOn: Bool) -> (){
+  // Something...
+}
+
+{
+  (isOn: Bool) -> () in
+  // Something...
+}
+
+// 반환타입은 추론이 가능한 경우, 생략가능
+{
+  (isOn: Bool) in
+  // Something...
+}
+```
+
+### 배열 선언
+
+```swift
+var color = [String]()
+color.append("빨간색")
+
+var color2: [String] = ["빨간색"]
+```
+
 ## MVVM
 
 ![MVVM](./images/readme/mvvm.png)
