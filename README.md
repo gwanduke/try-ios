@@ -77,6 +77,10 @@ storyboard를 사용하는 경우, 특이하게도 코드로 모든걸 작성하
 
 지금까지의 생각으로는 코드로 모든게 관리되지 않아서 iOS 개발은 뭔가 빠뜨리기 쉬운 것같은 느낌이 있다.
 
+### Web View
+
+- webkit view
+
 ## Projects
 
 ### War Challenge
