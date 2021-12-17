@@ -37,6 +37,14 @@
 
 ![MVVM](./images/readme/mvvm.png)
 
+## 특이사항
+
+### delegate
+
+storyboard를 사용하는 경우, 특이하게도 코드로 모든걸 작성하는게 아니라 UI에서 이리저리 링크를 걸게된다. 그 중 "delegate"라는게 있는데, 어떤 뷰의 컨트롤 책임을 넘기는 녀석인듯하다. 예를들어 "picker view"를 사용할 때 ViewController로 delegate를 하면, ViewController에서 UIPickerViewDelegate를 구현하고 이 컨트롤에 대한 책임을 위임한다. (특정 뷰를 우클릭 -> 컨트롤러로 드래그, delegate)
+
+지금까지의 생각으로는 코드로 모든게 관리되지 않아서 iOS 개발은 뭔가 빠뜨리기 쉬운 것같은 느낌이 있다.
+
 ## Projects
 
 ### War Challenge
